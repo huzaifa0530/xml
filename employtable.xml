@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<!DOCTYPE company [
+<!ELEMENT company (employ)*>
+<!ATTLIST employ id CDATA #REQUIRED>
+<!ELEMENT employ (name,salary,joining_date,position)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT joining_date (#PCDATA)>   
+<!ELEMENT position (#PCDATA)> 
+]>
+
+
+
+
+
 <company>
 
 
